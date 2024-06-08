@@ -8,11 +8,11 @@
     "product_url": "/"
   },
   {
-    "id": "",
-    "name": "",
-    "price": 0,
+    "id": "Third",
+    "name": "third",
+    "price": 16,
     "image": "",
-    "description": "",
-    "product_url": ""
+    "description": "A third eye",
+    "product_url": "/"
   }
 ]
