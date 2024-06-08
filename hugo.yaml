@@ -1,4 +1,43 @@
-baseURL: https://example.org/
-languageCode: en-us
-title: JamStack Site
-theme: Eclectic
+baseURL: http://example.org/
+languageCode: en-us 
+title: JamStack Site 
+theme: Eclectic 
+author: 
+  facebook: "https://facebook.com/example" 
+  twitter: "https://twitter.com/example" 
+  email: "contact@example.org" 
+  name: "JamStack Site" 
+  location: Samoa Islands 
+  phone: (999) 999-9999 
+  hours: "**Mon-Fri:** 9:00AM - 6:00PM, ET" 
+
+menu:
+  main: 
+    - identifier: about 
+      name: About 
+      url: /about 
+      weight: 100 
+    - identifier: contact 
+      name: Contact 
+      url: /contact 
+      weight: 200 
+params: 
+  color: "#4f46e5"
+  copyright: "Copyright &copy; 2022 JamStack Site.
+    All Rights Reserved."
+  footer:
+  - title: About
+    content: >
+      JamStack Site is the world leader in
+      manufacturing of intelligent shapes. From retangles and
+      circles to triangles and pentagons, we have it
+      all. Browse through our collection of various
+      forms with different thicknesses and line styles.
+      We shape the world. You live in it.
+
+
+  - title: Recent Blog Posts
+    recents: blog
+    recentCount: 7
+  - title: Contact Us
+    contact: true
